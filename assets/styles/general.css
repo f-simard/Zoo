@@ -10,7 +10,9 @@ a {
 }
 
 /* pas de barre au-dessous des liens de navigation */
-nav a, a.carte, footer a{
+nav a,
+a.carte,
+footer a {
 	text-decoration: none;
 }
 
@@ -19,10 +21,14 @@ img {
 	max-width: 100%;
 }
 
-
-.titre-en-page{
+.titre-en-page {
 	margin-left: var(--espace-tres-grand);
 	font-size: var(--police-grand);
 }
 
-
+/*restreindre taille du body*/
+body {
+	max-width: var(--largeure-max);
+	margin-left: var(--margin-auto);
+	margin-right: var(--margin-auto);
+}

@@ -1,51 +1,81 @@
-.module-evenement{
-    display: flex;
-    flex-direction: row;
-    gap: 170px;
+.module-evenement {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: var(--espace-tres-grand);
 }
 
+.module-evenement > *:nth-child(1) {
+	padding: var(--espace-tres-grand);
+	min-width: 45ch;
+	max-width: 80ch;
 
-.module-evenement h2{
-    font-size: var(--police-enorme);
-    color: black;
+	flex-basis: 0;
+	flex-grow: 3;
 }
 
-.module-evenement h3{
-    font-size: var(--police-tres-grand);
-    padding-bottom: var(--espace-tres-grand);
-    color: var(--gris-tres-fonce);
+.module-evenement > *:nth-child(2) {
+	padding: var(--espace-tres-grand);
+	min-width: 45ch;
+	max-width: 80ch;
+
+	flex-basis: 0;
+	flex-grow: 1;
 }
 
-.module-evenement h4{
-    font-size: var(--police-grand);
-    padding-bottom: var(--espace-petit);
+.module-evenement h2 {
+	font-size: var(--police-enorme);
+	color: black;
 }
 
-.module-evenement h5{
-    font-size: var(--police-moyen);
-    padding-bottom: var(--espace-petit);
-    padding-top: var(--espace-moyen);
+.module-evenement h3 {
+	font-size: var(--police-tres-grand);
+	padding-bottom: var(--espace-tres-grand);
+	color: var(--gris-tres-fonce);
 }
 
+.module-evenement h4 {
+	font-size: var(--police-grand);
+	padding-bottom: var(--espace-petit);
+}
+
+.module-evenement h5 {
+	font-size: var(--police-moyen);
+	padding-bottom: var(--espace-petit);
+	padding-top: var(--espace-moyen);
+}
+
+/*source: https://codepen.io/Amine_Es/pen/WNNRVyb */
+.module-evenement li {
+	list-style: none;
+}
+
+.module-evenement li::before {
+	content: "\2014";
+}
 
 /* La premiere collone */
+/*
 .module-evenement article:nth-child(1) {
-    margin-left: var(--espace-tres-grand);
-    max-width: 68ch;
+	margin-left: var(--espace-tres-grand);
+	max-width: 68ch;
 }
+*/
 
 /* La deuxieme collone */
-.module-evenement article:nth-child(2){
-    margin-right: var(--espace-tres-grand);
-    align-self: flex-end;
+/*
+.module-evenement article:nth-child(2) {
+	margin-right: var(--espace-tres-grand);
+	align-self: flex-end;
 }
+*/
 
 .module-evenement article h5 {
-    margin-top: var(--espace-moyen);  
+	margin-top: var(--espace-moyen);
 }
 
 /* pour le rhythm visuel--aucun effet sur le bouton */
-.module-evenement .bouton{
-    margin-top: calc(var(--espace-enorme) + var(--espace-enorme));  
-    align-self: flex-end;
+.module-evenement .bouton {
+	margin-top: var(--espace-enorme);
+	align-self: flex-end;
 }
