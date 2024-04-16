@@ -1,0 +1,63 @@
+/* pour gerer l'espacement du module dans la page */
+.module-image-cercle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--espace-tres-grand);
+    margin-right: var(--espace-tres-grand);
+}
+
+/* l'image a presentement une taille fixe
+ceci assure aucune déformation du cercle */
+.module-image-cercle img{
+    height: 470px;
+    width: 470px;
+    inset: 0;
+    border-radius: 50%;
+    margin: var(--espace-tres-grand);
+}
+
+/* le module comme telle, sa bordure, etc */
+.module-image-cercle > div{
+    display: flex;
+    flex-direction: row;
+    border: black solid 1px;
+    border-radius: 15px;
+    gap: var(--espace-moyen);
+    box-shadow: var(--ombre);
+}
+
+.module-image-cercle h2{
+    font-size: var(--police-tres-grand);
+    line-height: 1;
+    margin-bottom: var(--police-tres-grand);
+}
+
+.module-image-cercle h3{
+    font-size: var(--police-moyen);
+}
+
+.module-image-cercle a{
+    font-size: var(--police-moyen);
+    margin-top: var(--police-tres-grand);
+    margin-left: var(--espace-moyen);
+}
+
+.module-image-cercle div *{
+    padding-left: var(--espace-moyen);
+    padding-right: var(--espace-moyen);
+}
+
+/*espacement entre les premiers et derniers 
+elements du module*/
+.module-image-cercle div :nth-child(1){
+    padding-top: var(--espace-moyen);
+}
+
+.module-image-cercle div :last-child {
+    margin-bottom: var(--espace-moyen);
+}
+
+
+

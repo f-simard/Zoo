@@ -1,0 +1,29 @@
+.carte > * + * {
+	margin-top: var(--espace-petit);
+}
+
+.carte{
+	border-radius: 15px;
+	border: 1px black solid;
+	background-color: var(--gris-pale);
+}
+
+.carte img{
+	aspect-ratio: 1/1;
+	width: 100%;
+	inset: 0;
+	object-fit: cover;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.carte h3{
+	padding: var(--espace-tres-grand);
+	text-align: center;
+	font-size: var(--police-moyen-petit);
+	font-weight: 400;
+}
+
+.carte:hover{
+	box-shadow: var(--ombre-forte);
+}

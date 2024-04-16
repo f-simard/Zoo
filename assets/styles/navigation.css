@@ -1,0 +1,33 @@
+[id="navigation"] {
+	display: flex;
+	gap: var(--espace-tres-petit);
+	background-color: black;
+	color: white;
+	z-index: 1;
+}
+
+
+[id="navigation"] li {
+	list-style-type: none;  
+}
+
+
+[id="navigation"] a {
+	display: block;
+	padding: var(--espace-moyen) var(--espace-grand);
+}
+
+
+
+[id="navigation"] a:hover {
+ 	background-color: var(--gris-tres-fonce);
+}
+
+[id="navigation"] .logo{
+	padding: 0;
+	margin-left: 40px;
+	margin-right: 40px;
+	height: 64px;
+	background-color: var(--gris-fonce); 
+	aspect-ratio: 1 / 1;
+}

@@ -1,0 +1,28 @@
+/* rétablir le rythme */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* hériter de la couleur principale (plutôt que le bleu « Google » */
+a {
+	color: inherit;
+}
+
+/* pas de barre au-dessous des liens de navigation */
+nav a, a.carte, footer a{
+	text-decoration: none;
+}
+
+/* limiter les images à la largeur de leur parent */
+img {
+	max-width: 100%;
+}
+
+
+.titre-en-page{
+	margin-left: var(--espace-tres-grand);
+	font-size: var(--police-grand);
+}
+
+

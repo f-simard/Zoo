@@ -1,0 +1,36 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+}
+
+h1{
+	font-size: var(--police-enorme);
+}
+
+h2{
+	font-size: var(--police-tres-grand);
+}
+
+h3{
+	font-size: var(--police-grand);
+}
+
+h4{
+	font-size: var(--police-moyen-grand);
+}
+
+h5{
+	font-size: var(--police-moyen);
+}
+
+h6{
+	font-size: var(--police-moyen-petit);
+}
+
+p{
+	font-size: var(--police-petit);
+}

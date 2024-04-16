@@ -1,0 +1,42 @@
+    .bouton {
+        display: inline-block;
+        background-color: var(--gris-fonce);
+        color: black;
+        padding: var(--espace-tres-petit);
+        border-radius: 10px;
+        text-decoration: none;
+        border: solid 1px transparent;
+    }
+    
+    .bouton.gros {
+        padding: var(--espace-grand);
+        font-size: var(--police-petit);
+    }
+
+    .bouton.tres-gros{
+        padding: var(--espace-grand);
+        font-size: var(--police-moyen);
+    }
+
+    .bouton.grand-text{
+        max-width: 18ch;
+        padding: var(--espace-moyen);
+        font-size: var(--police-petit);
+        font-weight: 500;
+    }
+
+    .bouton.noir{
+        background-color: black;
+        color: white;
+    }
+
+    .bouton:hover{
+        border: solid black 1px;
+    }
+
+    .bouton.noir:hover{
+        background-color: rgb(37, 37, 37);
+    }
+    
+    
+    

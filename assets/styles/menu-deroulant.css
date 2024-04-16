@@ -1,0 +1,26 @@
+    .menu-deroulant {
+        position: relative;
+    }
+    
+    /*la couleur du lien en haut 
+    lorqu'on hover sur le sous-menu*/
+    .menu-deroulant:hover {
+        background-color: black;
+    }
+    
+
+    .menu-deroulant > ul {
+        position: absolute;
+        top: 100%;
+        width: max-content;
+        max-width: 32ch;
+        background-color: black;
+        z-index: var(--z-menu);
+    }
+    
+
+    .menu-deroulant:not(:hover) > ul {
+        pointer-events: none;
+        opacity: 0;
+    }
+    

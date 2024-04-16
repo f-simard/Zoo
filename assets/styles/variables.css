@@ -1,0 +1,45 @@
+:root {
+	/* z-indexes */
+	--z-menu: 3;
+	--z-1: 1;
+	--z-2: 2;
+
+	/* couleurs */
+    --gris-pale: rgb(240,240,240);
+	--gris-moyen: rgb(200, 200, 200);
+    --gris-fonce: rgb(160, 160, 160);
+	--gris-tres-fonce: rgb(100, 100, 100);
+
+	--arriere-plan: var(--gris-moyen);
+
+	/* espaces */
+	--espace-tres-petit: 5px;
+	--espace-petit: 10px;
+	--espace-moyen: 20px;
+	--espace-grand: 30px;
+	--espace-tres-grand: 40px;
+	--espace-enorme: 60px;
+	
+	--gouttiere: var(--espace-tres-grand);
+
+
+	
+	--colonne: 30ch;
+
+	/* grandeurs de police */
+	--police-tres-petit: 15px;
+	--police-petit: 18px;
+	--police-moyen-petit: 24px;
+	--police-moyen: 30px;
+	--police-moyen-grand: 35px;
+	--police-grand: 40px;
+	--police-tres-grand: 70px;
+	--police-enorme: 100px;
+
+	/* effets visuels */
+	--ligne-style-noir: linear-gradient(rgb(0, 0, 0, 0), black, rgb(0, 0, 0, 0)) 1;
+	--ligne-style-blanc: linear-gradient(black, white, black) 1;
+	/*https://getcssscan.com/css-box-shadow-examples*/
+	--ombre: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	--ombre-forte: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
