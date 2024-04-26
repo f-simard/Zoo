@@ -9,19 +9,30 @@
 	justify-content: center;
 	gap: var(--espace-moyen);
 
-	padding: var(--espace-tres-grand);
+	padding: var(--espace-enorme);
 	box-shadow: var(--ombre);
+}
+
+.module-image-cercle div {
+	flex-basis: 0;
+	flex-grow: 3;
 }
 
 /* l'image a presentement une taille fixe
 ceci assure aucune déformation du cercle */
 .module-image-cercle picture {
-	max-width: 470px;
-	max-height: 470px;
+	flex-basis: 0;
+	flex-grow: 2;
+
 	border-radius: 50%;
+	aspect-ratio: 1/1;
 	overflow: hidden;
-	inset: 0;
-	margin: var(--espace-tres-grand);
+}
+
+.module-image-cercle img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .module-image-cercle h2 {
@@ -38,19 +49,4 @@ ceci assure aucune déformation du cercle */
 	font-size: var(--police-moyen);
 	margin-top: var(--police-tres-grand);
 	margin-left: var(--espace-moyen);
-}
-
-.module-image-cercle div * {
-	padding-left: var(--espace-moyen);
-	padding-right: var(--espace-moyen);
-}
-
-/*espacement entre les premiers et derniers 
-elements du module*/
-.module-image-cercle div:nth-child(1) {
-	padding-top: var(--espace-moyen);
-}
-
-.module-image-cercle div :last-child {
-	margin-bottom: var(--espace-moyen);
 }

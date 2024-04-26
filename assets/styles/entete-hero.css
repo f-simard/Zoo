@@ -1,12 +1,6 @@
 .entete-hero {
 	position: relative;
-	display: flex;
 	min-height: 70vh;
-}
-
-/* rythme */
-.entete-hero div > * + * {
-	margin-top: var(--espace-moyen);
 }
 
 /* text de l'entete en deux colones */
@@ -15,13 +9,14 @@
 	padding: calc(var(--espace-moyen) + var(--espace-moyen));
 
 	display: flex;
+	gap: var(--espace-moyen);
 	flex-direction: row;
 	align-items: first baseline;
 }
 
 /* premiere colone*/
 .entete-hero .zone-titre {
-	flex-basis: 40%;
+	flex-basis: 50%;
 	white-space: nowrap;
 }
 
@@ -32,9 +27,9 @@
 /* deuxieme colone*/
 .entete-hero .zone-info {
 	text-align: left;
-	margin-left: 5em;
 	white-space: wrap;
-	padding: 0;
+	padding: var(--espace-tres-grand);
+	flex-basis: 50%;
 }
 
 .entete-hero .zone-info h1 {

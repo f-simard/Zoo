@@ -1,11 +1,12 @@
-/*pile verticale de contenu avec rythme */
-body {
-	display: flex;
-	flex-direction: column;
-	gap: var(--gouttiere);
+/* rythme */
+body > * + * {
+	margin-top: var(--gouttiere);
 }
 
-/* rythme */
-body > div > main > * + * {
+body > main > * + * {
+	margin-top: var(--espace-enorme);
+}
+
+main > section > * + * {
 	margin-top: var(--gouttiere);
 }

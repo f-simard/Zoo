@@ -1,9 +1,9 @@
-.img-couverture{
-    /* étendre l'image au complet (dans son parent) */
-    width: 100%;
+.img-couverture {
+	/* étendre l'image au complet (dans son parent) */
+	width: 100%;
 	height: 100%;
 	position: absolute;
 	/* empêcher que les règles ci-dessus ne déforment l'image */
- 	inset: 0;
- 	object-fit: cover;
+	inset: 0;
+	object-fit: cover;
 }

@@ -9,6 +9,7 @@
 	--gris-moyen: rgb(200, 200, 200);
 	--gris-fonce: rgb(160, 160, 160);
 	--gris-tres-fonce: rgb(100, 100, 100);
+	--couleur-bouton: black;
 
 	--arriere-plan: var(--gris-moyen);
 

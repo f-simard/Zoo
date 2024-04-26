@@ -1,20 +1,25 @@
-/* ce module respecte l'ordre d'apparition 
-dans le html (si le text vient avant l'image,
-il sera a gauche, sinon il sera a droite) */
+/*ce module se fit sur le champ data-position afin de déterminer
+si l'imgae va à droite ou à gauche */
 
-.module-horizontale {
+.module-horizontale[data-position="droite"] {
 	display: flex;
 	flex-direction: row;
 }
 
+.module-horizontale[data-position="gauche"] {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
 .module-horizontale picture {
 	flex-basis: 60%;
-	min-height: 80vh;
+	min-height: 60dvh;
 }
 
 .module-horizontale img {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .module-horizontale div {
@@ -30,7 +35,6 @@ il sera a gauche, sinon il sera a droite) */
 
 .module-horizontale p {
 	font-size: var(--police-moyen-grand);
-	padding-bottom: var(--espace-petit);
 }
 
 /* ajouter la marge à tout les cartes sauf la dernière--semblable au hiboux lobotimisé */

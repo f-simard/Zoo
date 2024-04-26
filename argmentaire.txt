@@ -1,8 +1,9 @@
 Modification HTML:
 - changement des puces
+- changement des certaines balises "conteneur" car il y avait une variabilité entre seciton, div et article qui me semblait incohérente
 
 Modification CSS:
-- j'ai décidié de garder le CSS en faisant quelques modifications
+- j'ai décidié de garder le CSS en faisant quelques modifications au niveau des classes pour rendre l'adaptation plus facile ou retirer des redondance. La base était facile à suivre. Tout refaire aurait pris du temps qui peut être investi dans d'autres tâches tel que l'adaptation.
 
 
 Modification Scenarisation:

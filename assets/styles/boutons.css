@@ -1,11 +1,14 @@
 .bouton {
 	display: inline-block;
 	background-color: var(--gris-fonce);
-	color: black;
+	color: var(--couleur-bouton);
 	padding: var(--espace-tres-petit);
 	border-radius: 10px;
 	text-decoration: none;
 	border: solid 1px transparent;
+
+	transition-property: transform;
+	transition-duration: 200ms;
 }
 
 .bouton.gros {
@@ -30,8 +33,12 @@
 	color: white;
 }
 
+.bouton:active {
+	transform: translateX(4px);
+	transform: translateY(4px);
+}
 .bouton:hover {
-	border: solid black 1px;
+	background-color: var(--gris-moyen);
 }
 
 .bouton.noir:hover {
