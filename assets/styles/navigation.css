@@ -1,9 +1,10 @@
 [id="navigation"] {
 	display: flex;
-	gap: var(--espace-tres-petit);
+	align-items: center;
 	background-color: black;
 	color: white;
 	z-index: 1;
+	padding: var(--espace-moyen);
 }
 
 [id="navigation"] li {
@@ -12,19 +13,19 @@
 
 [id="navigation"] a {
 	display: block;
-	padding: var(--espace-moyen) var(--espace-grand);
+	padding: var(--espace-moyen);
 	font-size: var(--police-moyen-petit);
 }
 
+[id="navigation"] a:not(.logo) {
+	min-width: 15ch;
+}
 [id="navigation"] a:hover {
 	background-color: var(--gris-tres-fonce);
 }
 
 [id="navigation"] .logo {
-	padding: 0;
-	margin-left: 40px;
-	margin-right: 40px;
 	height: 64px;
-	background-color: var(--gris-fonce);
+	width: 64px;
 	aspect-ratio: 1 / 1;
 }

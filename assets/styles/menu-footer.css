@@ -1,64 +1,62 @@
-footer{
-    background-color: black;
-    color:white;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 150px;
-    padding-top: var(--espace-tres-grand);
-    padding-bottom: var(--espace-tres-grand);
-    align-items: stretch;
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 150px;
+	padding-top: var(--espace-tres-grand);
+	padding-bottom: var(--espace-tres-grand);
+	align-items: stretch;
 }
 
 /* les colonnes de liens */
-footer > div{
-    display: flex;
-    flex-direction: column;
-
+footer > div {
+	display: flex;
+	flex-direction: column;
 }
 
 /* ligne décorative a la gauche des colonnes de liens SAUF la premiere colone*/
-footer > div:not(:first-child), footer>div>div  {
-    border-left: white 1px solid;
-    border-image: var(--ligne-style-blanc);
-    padding-left: var(--espace-tres-grand);
+footer > div:not(:first-child),
+footer > div > div {
+	border-left: white 1px solid;
+	border-image: var(--ligne-style-blanc);
+	padding-left: var(--espace-tres-grand);
 }
 
 /* la premiere colone de liens */
-footer > div:first-child{
-    margin-left: var(--espace-moyen)
+footer > div:first-child {
+	margin-left: var(--espace-moyen);
 }
 
 footer a {
-    padding: var(--espace-moyen);
+	padding: var(--espace-moyen);
 }
 
 /* les "titres" pour chaque section */
 footer a:first-child {
-    font-size: calc(var(--police-petit) + 4px);
+	font-size: calc(var(--police-petit) + 4px);
 }
 
-footer a:hover{
-    color: var(--gris-moyen)
+footer a:hover {
+	color: var(--gris-moyen);
 }
 
 /*contact area*/
-footer > div > div{
-    margin-left: var(--espace-moyen);
-    margin-top: auto;
-    margin-bottom: var(--espace-moyen);
+footer > div > div {
+	margin-left: var(--espace-moyen);
+	margin-top: auto;
+	margin-bottom: var(--espace-moyen);
 }
 
 /*contact*/
-footer p{
-    font-size: var(--police-tres-petit);
-    font-weight: 200;
+footer p {
+	font-size: var(--police-tres-petit);
+	font-weight: 200;
 }
 
 /*contactez-nous*/
-footer h6{
-    margin-bottom: var(--espace-petit);
-    font-weight: 200;
+footer h6 {
+	margin-bottom: var(--espace-petit);
+	font-weight: 200;
 }
-
-

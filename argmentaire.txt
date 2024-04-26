@@ -7,13 +7,16 @@ Modification CSS:
 
 Modification Scenarisation:
 - augmentation de la taille du menu: la barre de menu est un peu disproportionnée par rapport au reste du site
-- reduction des 2 articles module-horizontale afin qu'ils apparaissent dans la même fenêtre lorsque l'écran est large et haut, mais qu'une seule apparaisse si l'écran est étroit et/ou petit en hauteur
+- ajouter wrapper coin rond en alternance avec les images informationnelles
 
 Modification adaptation:
 - restriction du la largeure du contenu car sinon les images deviennent très large et le texte tres éparpillé
 - modification de la taille des polices pour rem
 
 Images:
+- pexels
+- unsplashed
+- 
 
 Choix du langage graphique:
 
