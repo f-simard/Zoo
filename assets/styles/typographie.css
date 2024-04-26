@@ -1,36 +1,47 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	font-family: var(--sans-serif);
 	line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	line-height: 1.1;
 }
 
-h1{
+h1 {
 	font-size: var(--police-enorme);
+	font-family: var(--serif-titre);
 }
 
-h2{
+h2 {
 	font-size: var(--police-tres-grand);
+	font-family: var(--serif-soustitre);
 }
 
-h3{
+h3 {
 	font-size: var(--police-grand);
+	font-family: var(--sans-serif);
 }
 
-h4{
+h4 {
 	font-size: var(--police-moyen-grand);
+	font-family: var(--serif-soustitre);
 }
 
-h5{
+h5 {
 	font-size: var(--police-moyen);
+	font-family: var(--serif-soustitre);
 }
 
-h6{
+h6 {
 	font-size: var(--police-moyen-petit);
+	font-family: var(--serif-soustitre);
 }
 
-p{
+p {
 	font-size: var(--police-petit);
 }

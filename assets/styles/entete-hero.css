@@ -4,51 +4,45 @@
 	min-height: 70vh;
 }
 
-
-.entete-hero h1 {
-	font-size: clamp(16px, 4vw, 60px);
-}
-
-.entete-hero p {
-	font-size: clamp(5px, 2.5vw, 20px);
-}
-
-
-.entete-hero > div {
-	position: relative;
-	padding: calc(var(--espace-moyen) + var(--espace-moyen));
-}
-
 /* rythme */
 .entete-hero div > * + * {
 	margin-top: var(--espace-moyen);
 }
 
 /* text de l'entete en deux colones */
-.entete-hero > div > div {
-    display: flex;
-    flex-direction: row;
-    align-items: first baseline;
+.entete-hero > div {
+	position: relative;
+	padding: calc(var(--espace-moyen) + var(--espace-moyen));
+
+	display: flex;
+	flex-direction: row;
+	align-items: first baseline;
 }
 
 /* premiere colone*/
-.titre1{
-    flex-basis: 40%;
-    white-space: nowrap;
+.entete-hero .zone-titre {
+	flex-basis: 40%;
+	white-space: nowrap;
+}
+
+.entete-hero .zone-titre > * {
+	font-size: var(--police-tres-grand);
 }
 
 /* deuxieme colone*/
-.titre2{
-    text-align: left;
-    margin-left: 5em;
+.entete-hero .zone-info {
+	text-align: left;
+	margin-left: 5em;
 	white-space: wrap;
 	padding: 0;
 }
 
-.titre2 p{
+.entete-hero .zone-info h1 {
+	font-size: var(--police-grand);
+}
+
+.entete-hero .zone-info p {
+	font-size: var(--police-moyen);
 	margin-top: var(--espace-enorme);
 	margin-bottom: var(--espace-moyen);
 }
-
-
-

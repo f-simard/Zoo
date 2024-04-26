@@ -1,7 +1,8 @@
 Modification HTML:
-- changement des puces 
+- changement des puces
 
 Modification CSS:
+- j'ai décidié de garder le CSS en faisant quelques modifications
 
 
 Modification Scenarisation:
@@ -13,3 +14,17 @@ Modification adaptation:
 - modification de la taille des polices pour rem
 
 Images:
+
+Choix du langage graphique:
+
+COULEUR: 
+"analogous harmony" car elle évoque un sentiment et de calme selon https://zevendesign.com/color-harmony-hulk-wears-purple-pants/
+
+
+POLICE: inspiré par des exemples présentés sur "Font In Use" avec le tag "Zoo", "Wildlife", "famille", 
+	J'ai choisi une combinaison d'une police avec sérif pour les titres et éléments important et une police sans sérif pour la majorité du texte. Les polices sans serif sont généralement associé à la modernité. Étant donné que le public ciblent sont les familles avec des jeunes enfants, il est d'autant plus pertinent d'utiliser une police que les gens considèrent comme morderne pour la grande partie du texte. De plus, les polices sans seriff offrent une meilleure lisibilité pour des écrans avec de petite taille ou de résolution faible.
+
+sources:
+https://www.adobe.com/ca/creativecloud/design/discover/serif-vs-sans-serif.html#:~:text=%E2%80%9CIf%20you're%20building%20an,small%20or%20have%20lower%20resolutions.
+https://fontsinuse.com/search?terms=wildlife&page=1
+https://www.aza.org/partnerships-visitor-demographics

@@ -39,6 +39,12 @@
 	--police-tres-grand: 70px;
 	--police-enorme: 100px;
 
+	/*famille de police*/
+	--serif-titre: "Playfair Display", Cambria, Georgia, serif;
+	--serif-soustitre: "Merriweather", Cambria, Georgia, serif;
+	--sans-serif: "Overpass", "Helvetica Neue", Helvetica, Arial, Verdana,
+		sans-serif;
+
 	/* effets visuels */
 	--ligne-style-noir: linear-gradient(rgb(0, 0, 0, 0), black, rgb(0, 0, 0, 0))
 		1;

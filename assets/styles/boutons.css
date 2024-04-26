@@ -1,42 +1,39 @@
-    .bouton {
-        display: inline-block;
-        background-color: var(--gris-fonce);
-        color: black;
-        padding: var(--espace-tres-petit);
-        border-radius: 10px;
-        text-decoration: none;
-        border: solid 1px transparent;
-    }
-    
-    .bouton.gros {
-        padding: var(--espace-grand);
-        font-size: var(--police-petit);
-    }
+.bouton {
+	display: inline-block;
+	background-color: var(--gris-fonce);
+	color: black;
+	padding: var(--espace-tres-petit);
+	border-radius: 10px;
+	text-decoration: none;
+	border: solid 1px transparent;
+}
 
-    .bouton.tres-gros{
-        padding: var(--espace-grand);
-        font-size: var(--police-moyen);
-    }
+.bouton.gros {
+	padding: var(--espace-grand);
+	font-size: var(--police-petit);
+}
 
-    .bouton.grand-text{
-        max-width: 18ch;
-        padding: var(--espace-moyen);
-        font-size: var(--police-petit);
-        font-weight: 500;
-    }
+.bouton.tres-gros {
+	padding: var(--espace-grand);
+	font-size: var(--police-moyen);
+}
 
-    .bouton.noir{
-        background-color: black;
-        color: white;
-    }
+.bouton.grand-text {
+	max-width: 18ch;
+	padding: var(--espace-moyen);
+	font-size: var(--police-moyen-petit);
+	/* font-weight: 500; */
+}
 
-    .bouton:hover{
-        border: solid black 1px;
-    }
+.bouton.noir {
+	background-color: black;
+	color: white;
+}
 
-    .bouton.noir:hover{
-        background-color: rgb(37, 37, 37);
-    }
-    
-    
-    
+.bouton:hover {
+	border: solid black 1px;
+}
+
+.bouton.noir:hover {
+	background-color: rgb(37, 37, 37);
+}

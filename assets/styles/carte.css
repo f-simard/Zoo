@@ -2,13 +2,13 @@
 	margin-top: var(--espace-petit);
 }
 
-.carte{
+.carte {
 	border-radius: 15px;
 	border: 1px black solid;
 	background-color: var(--gris-pale);
 }
 
-.carte img{
+.carte img {
 	aspect-ratio: 1/1;
 	width: 100%;
 	inset: 0;
@@ -17,13 +17,12 @@
 	border-top-right-radius: 15px;
 }
 
-.carte h3{
+.carte h3 {
 	padding: var(--espace-tres-grand);
 	text-align: center;
 	font-size: var(--police-moyen-petit);
-	font-weight: 400;
 }
 
-.carte:hover{
+.carte:hover {
 	box-shadow: var(--ombre-forte);
 }

@@ -40,7 +40,6 @@
 }
 
 .module-evenement h5 {
-	font-size: var(--police-moyen);
 	padding-bottom: var(--espace-petit);
 	padding-top: var(--espace-moyen);
 }
