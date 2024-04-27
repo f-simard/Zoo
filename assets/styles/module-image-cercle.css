@@ -7,9 +7,9 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	gap: var(--espace-moyen);
+	gap: var(--espace-tres-grand);
 
-	padding: var(--espace-moyen) var(--espace-enorme);
+	padding: calc(var(--espace-moyen) + var(--espace-moyen));
 
 	box-shadow: var(--ombre);
 }
@@ -37,7 +37,7 @@ ceci assure aucune déformation du cercle */
 }
 
 .module-image-cercle h2 {
-	font-size: var(--police-tres-grand);
+	font-size: var(--police-grand);
 	line-height: 1;
 	margin-bottom: var(--police-tres-grand);
 }
@@ -50,4 +50,9 @@ ceci assure aucune déformation du cercle */
 	font-size: var(--police-moyen);
 	margin-top: var(--police-tres-grand);
 	margin-left: var(--espace-moyen);
+}
+
+/*annuler le margin top */
+.module-image-cercle > * + * {
+	margin-top: 0;
 }

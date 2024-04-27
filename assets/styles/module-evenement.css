@@ -24,13 +24,11 @@
 
 .module-evenement h2 {
 	font-size: var(--police-enorme);
-	color: black;
 }
 
 .module-evenement h3 {
 	font-size: var(--police-tres-grand);
 	padding-bottom: var(--espace-tres-grand);
-	color: var(--gris-tres-fonce);
 }
 
 .module-evenement h4 {

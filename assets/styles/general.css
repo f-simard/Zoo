@@ -20,8 +20,3 @@ footer a {
 img {
 	max-width: 100%;
 }
-
-.titre-en-page {
-	margin-left: var(--espace-tres-grand);
-	font-size: var(--police-grand);
-}

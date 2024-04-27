@@ -14,8 +14,14 @@
 	--nuance-pale: rgb(252, 252, 252); /*presque blanc*/
 	--accent-pale: rgb(178, 196, 110); /*173,196,110*/
 	--principal: rgb(58, 69, 28); /*dark green moss*/
-	--accent-fonce: rgb(187, 68, 48); /*persian red*/
+	--accent-fonce: rgb(109, 40, 28, 0.9); /*persian red*/
 	--nuance-fonce: rgb(28, 35, 31); /*eerie black*/
+	--nuance-fonce-transparent: rgb(
+		28,
+		35,
+		31,
+		0.7
+	); /*eerie black transparent*/
 
 	/* espaces */
 	--espace-tres-petit: 5px;
@@ -53,9 +59,14 @@
 	/* effets visuels */
 	--ligne-style-noir: linear-gradient(rgb(0, 0, 0, 0), black, rgb(0, 0, 0, 0))
 		1;
-	--ligne-style-blanc: linear-gradient(black, white, black) 1;
+	--ligne-style-blanc: linear-gradient(
+			var(--nuance-fonce),
+			var(--nuance-pale),
+			var(--nuance-fonce)
+		)
+		1;
 	/*https://getcssscan.com/css-box-shadow-examples*/
 	--ombre: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-	--ombre-forte: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	--ombre-forte: var(--nuance-fonce) 0px 10px 20px,
+		rgba(0, 0, 0, 0.23) 0px 10px 20px;
 }

@@ -12,9 +12,9 @@
 	<title>le zoo forestier de Val-Jalbert</title>
 </head>
 
-<body>
+<body class="fond-pale">
 	<nav>
-		<ul id="navigation" class="fond-principal couleur-pale">
+		<ul id="navigation" class="fond-fonce couleur-pale">
 			<li><a class="logo" href="#"><img src="assets/img/logo.png" alt="logo du zoo forrestier de val-jalbert"></a></li>
 			<li><a href="#">Informations</a></li>
 			<li><a href="#">Activités</a></li>
@@ -30,7 +30,7 @@
 		</nav>
 		<main>
 			
-			<section class="entete-hero">
+			<section class="entete-hero couleur-pale" data-textshadow="nuance-fonce"">
 				<picture>
 					<img class="img-couverture" src="assets/img/ours-brun.jpg" alt="un ours qui mange une griffé de bleuets entouré d'une foret rich et sombre">
 				</picture>
@@ -46,10 +46,10 @@
 				</div>
 			</section>
 			
-			<section class="module-evenement">
+			<section class="module-evenement couleur-fonce">
 				<div>
 					<h2>La Nocturne</h2>
-					<h3>8-9 Juin</h3>
+					<h3 class="couleur-accent-fonce">8-9 Juin</h3>
 					<h4>Une nuit innoubliable au zoo</h4>
 					<p>Emmitouflé dans des fourrures encore chaudes, chantons comme les loups, mangeons comme les lynx, et dormons sous les étoiles fillantes</p>
 					<a class="bouton gros noir" href="#">Soyez des notres pour la Nocturne!</a>
@@ -73,46 +73,47 @@
 				</div>
 			</section>
 			
-				<div>
-					<article class="module-horizontale" data-position="droite">
-						<div>
-							<p>À seulement 6 heures de Montréal et 30 minutes de Chicoutimi!</p>
-							<a class="bouton gros" href="#">Planifier votre visite</a>
-						</div>
-						<picture>
-							<img class="grande-img" src="assets/img/route-foret.jpg" alt="autoroute étroite et enneigée, dans la foret">
-						</picture>
-					</article>
-					<article class="module-horizontale" data-position="gauche">
-						<div>
-							<p>Le seul Zoo en forêt du Québec. Venez voir nos lynx et carcajous en liberté!</p>
-						</div>
-						<picture>
-							<img class="grande-img" src="assets/img/lynx.jpg" alt="Un lynx, couché sur une branche d'arbre décoré avec des lumieres de noël">
-						</picture>
-					</article>
-				</div>
-			<h2>Apprenez-en plus sur le zoo et Val-Jalbert!</h2>
-			<div class="grille petite">
-				<a href="#"  class="carte wrapper-coin-rond">
-					<article>
-						<picture><img src="assets/img/village.jpg" alt=""></picture>
-						<h3>Un village plein d’histoires!</h3>
-					</article>
-				</a>
-				<a href="#" class="carte wrapper-coin-rond">
-					<article>
-						<img src="assets/img/cougar.jpg" alt="">
-						<h3>Le cougar, typiquement québécois!</h3>
-					</article>
-				</a>
-				<a href="#"  class="carte wrapper-coin-rond">
-					<article>
-						<picture><img src="assets/img/enfant.jpg" alt=""></picture>
-						<h3>Devenez membre et recevez un écusson de votre choix!</h3>
-					</article>
-				</a>
+			<div class="liste-module">
+				<article class="module-horizontale" data-position="droite">
+					<div class="fond-fonce-transparent">
+						<p>Le seul Zoo en forêt du Québec. Venez voir nos lynx et carcajous en liberté!</p>
+					</div>
+					<picture>
+						<img class="grande-img" src="assets/img/lynx.jpg" alt="Un lynx, couché sur une branche d'arbre décoré avec des lumieres de noël">
+					</picture>
+				</article>
+				<article class="module-horizontale" data-position="gauche">
+					<div class="fond-fonce-transparent">
+						<p>À seulement 6 heures de Montréal et 30 minutes de Chicoutimi!</p>
+						<a class="bouton gros" href="#">Planifier votre visite</a>
+					</div>
+					<picture>
+						<img class="grande-img" src="assets/img/route-foret.jpg" alt="autoroute étroite et enneigée, dans la foret">
+					</picture>
+				</article>
 			</div>
+			<section>
+				<h2 class="titre-en-page">Apprenez-en plus sur le zoo et Val-Jalbert!</h2>
+				<div class="grille petite">
+					<a href="#" class="carte wrapper-coin-rond couleur-pale fond-accent-fonce">
+						<article>
+							<picture><img src="assets/img/village.jpg" alt=""></picture>
+							<h3>Un village plein d’histoires!</h3>
+						</article>
+					</a>
+					<a href="#" class="carte wrapper-coin-rond couleur-pale fond-accent-fonce">
+						<article>
+							<img src="assets/img/cougar.jpg" alt="">
+							<h3>Le cougar, typiquement québécois!</h3>
+						</article>
+					</a>
+					<a href="#"  class="carte wrapper-coin-rond couleur-pale fond-accent-fonce">
+						<article>
+							<picture><img src="assets/img/enfant.jpg" alt=""></picture>
+							<h3>Devenez membre et recevez un écusson de votre choix!</h3>
+						</article>
+					</a>
+				</div>
 			</section>
 			
 			<section class="boutons-heros">
@@ -120,7 +121,7 @@
 					<img class="img-couverture" src="assets/img/caribou.jpg" alt="">
 				</picture>
 				<div>
-					<div>
+					<div class="couleur-pale" data-textshadow="accent-fonce">
 						<h2>Aidez-nous à préserver la faune québécoise et sournoise!</h2>
 					</div>
 					<div class="boutons">

@@ -6,12 +6,14 @@ Modification CSS:
 - j'ai décidié de garder le CSS en faisant quelques modifications au niveau des classes pour rendre l'adaptation plus facile ou retirer des redondance. La base était facile à suivre. Tout refaire aurait pris du temps qui peut être investi dans d'autres tâches tel que l'adaptation.
 
 Effet:
-- j'ai changé l'effet de survol dans la navigation car il était difficile de faire une belle composition graphique qui respecte les contraintes de contraste sans changé la palette au complet
+- j'ai changé l'effet de survol dans la navigation car il était difficile de faire une belle composition graphique qui respecte les contraintes de con sans changé la palette au complet
 
 
 Modification Scenarisation:
 - augmentation de la taille du menu: la barre de menu est un peu disproportionnée par rapport au reste du site
-- ajouter wrapper coin rond en alternance avec les images informationnelles
+- former une section dans une fenêtre pour les informations sur le zoo car l'ancienne scenarisation comportait une vue pleine écran sans actions alors que toutes les autres vues en un un + inverser les 2 modules horizontales pour que l'action soit en dernier
+- modification du ratio de taille des cartes car elles étaient trop grande en 1/1. Elles repoussaient le titre et l'élément d'apres au point ou la section ne rentrait quasiement pas dans une fenêtre
+
 
 Modification adaptation:
 - restriction du la largeure du contenu car sinon les images deviennent très large et le texte tres éparpillé

@@ -5,7 +5,6 @@ body {
 	margin-right: var(--margin-auto);
 }
 
-/* rythme */
 body > * + * {
 	margin-top: var(--gouttiere);
 }
@@ -16,4 +15,10 @@ body > main > * + * {
 
 main > section > * + * {
 	margin-top: var(--gouttiere);
+}
+
+/*margin right sur les titres de sections*/
+main .titre-en-page {
+	margin-left: var(--espace-tres-grand);
+	font-size: var(--police-grand);
 }
