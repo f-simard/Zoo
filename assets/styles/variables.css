@@ -11,7 +11,11 @@
 	--gris-tres-fonce: rgb(100, 100, 100);
 	--couleur-bouton: black;
 
-	--arriere-plan: var(--gris-moyen);
+	--nuance-pale: rgb(252, 252, 252); /*presque blanc*/
+	--accent-pale: rgb(178, 196, 110); /*173,196,110*/
+	--principal: rgb(58, 69, 28); /*dark green moss*/
+	--accent-fonce: rgb(187, 68, 48); /*persian red*/
+	--nuance-fonce: rgb(28, 35, 31); /*eerie black*/
 
 	/* espaces */
 	--espace-tres-petit: 5px;

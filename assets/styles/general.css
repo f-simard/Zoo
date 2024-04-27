@@ -25,10 +25,3 @@ img {
 	margin-left: var(--espace-tres-grand);
 	font-size: var(--police-grand);
 }
-
-/*restreindre taille du body*/
-body {
-	max-width: var(--largeure-max);
-	margin-left: var(--margin-auto);
-	margin-right: var(--margin-auto);
-}

@@ -5,6 +5,9 @@ Modification HTML:
 Modification CSS:
 - j'ai décidié de garder le CSS en faisant quelques modifications au niveau des classes pour rendre l'adaptation plus facile ou retirer des redondance. La base était facile à suivre. Tout refaire aurait pris du temps qui peut être investi dans d'autres tâches tel que l'adaptation.
 
+Effet:
+- j'ai changé l'effet de survol dans la navigation car il était difficile de faire une belle composition graphique qui respecte les contraintes de contraste sans changé la palette au complet
+
 
 Modification Scenarisation:
 - augmentation de la taille du menu: la barre de menu est un peu disproportionnée par rapport au reste du site

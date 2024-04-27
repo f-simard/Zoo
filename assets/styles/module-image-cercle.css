@@ -9,7 +9,8 @@
 	justify-content: center;
 	gap: var(--espace-moyen);
 
-	padding: var(--espace-enorme);
+	padding: var(--espace-moyen) var(--espace-enorme);
+
 	box-shadow: var(--ombre);
 }
 

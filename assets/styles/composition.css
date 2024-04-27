@@ -1,3 +1,10 @@
+/*restreindre taille du body*/
+body {
+	max-width: var(--largeure-max);
+	margin-left: var(--margin-auto);
+	margin-right: var(--margin-auto);
+}
+
 /* rythme */
 body > * + * {
 	margin-top: var(--gouttiere);

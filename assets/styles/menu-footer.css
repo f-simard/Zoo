@@ -1,6 +1,4 @@
 footer {
-	background-color: black;
-	color: white;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -56,7 +54,8 @@ footer p {
 }
 
 /*contactez-nous*/
-footer h6 {
+footer h1 {
 	margin-bottom: var(--espace-petit);
 	font-weight: 200;
+	font-size: var(--police-moyen);
 }

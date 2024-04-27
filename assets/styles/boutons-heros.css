@@ -2,15 +2,14 @@
 et un div qui contient 1 div titre et 1 div boutons */
 .boutons-heros {
 	position: relative;
- 	display: flex;
+	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	min-height: 85vh;
+	min-height: 85dvh;
 }
 
-
 /*le titre*/
-.boutons-heros h2{
+.boutons-heros h2 {
 	top: 0;
 	margin: var(--espace-tres-grand);
 	z-index: 2;
@@ -18,20 +17,17 @@ et un div qui contient 1 div titre et 1 div boutons */
 	text-align: center;
 }
 
-
 /*div qui contient le titre et un div avec des boutons*/
 .boutons-heros > div {
 	position: absolute;
-    display: flex;
+	display: flex;
 	width: 100%;
 	min-height: 100%;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	z-index: var(--z-1);
-
 }
-
 
 /*c'est le div qui contient les boutons*/
 .boutons {
@@ -43,6 +39,6 @@ et un div qui contient 1 div titre et 1 div boutons */
 }
 
 /*les boutons*/
-.boutons .bouton{
+.boutons .bouton {
 	margin: var(--espace-tres-grand);
 }

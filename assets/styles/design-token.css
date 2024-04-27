@@ -1,0 +1,38 @@
+.couleur-pale {
+	color: var(--nuance-pale);
+}
+
+.couleur-accent-pale {
+	color: var(--accent-pale);
+}
+.couleur-principal {
+	color: var(--principal);
+}
+
+.couleur-accent-fonce {
+	color: var(--accent-fonce);
+}
+
+.couleur-foncee {
+	color: var(--nuance-fonce);
+}
+
+.fond-pale {
+	background-color: var(--nuance-pale);
+}
+
+.fond-accent-pale {
+	background-color: var(--accent-pale);
+}
+
+.fond-principal {
+	background-color: var(--principal);
+}
+
+.fond-accent-fonce {
+	background-color: var(--accent-fonce);
+}
+
+.fond-fonce {
+	background-color: var(--nuance-fonce);
+}
