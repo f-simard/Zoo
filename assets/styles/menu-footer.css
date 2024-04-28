@@ -1,11 +1,11 @@
 footer {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
 	gap: 150px;
+	align-items: stretch;
+
 	padding-top: var(--espace-tres-grand);
 	padding-bottom: var(--espace-tres-grand);
-	align-items: stretch;
 }
 
 /* les colonnes de liens */
@@ -28,7 +28,14 @@ footer > div:first-child {
 }
 
 footer a {
-	padding: var(--espace-moyen);
+	margin-top: vaR(--espace-petit);
+	padding: var(--espace-petit);
+
+	max-width: fit-content;
+	border-bottom: 2px solid transparent;
+
+	transition-property: border-bottom;
+	transition-duration: 200ms;
 }
 
 /* les "titres" pour chaque section */
@@ -37,7 +44,7 @@ footer a:first-child {
 }
 
 footer a:hover {
-	color: var(--gris-moyen);
+	border-bottom: 2px solid var(--nuance-pale);
 }
 
 /*contact area*/
