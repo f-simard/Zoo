@@ -39,17 +39,16 @@ ceci assure aucune déformation du cercle */
 .module-image-cercle h2 {
 	font-size: var(--police-grand);
 	line-height: 1;
-	margin-bottom: var(--police-tres-grand);
 }
 
-.module-image-cercle h3 {
+.module-image-cercle * + h3 {
 	font-size: var(--police-moyen);
+	margin-top: var(--espace-grand);
 }
 
 .module-image-cercle a {
 	font-size: var(--police-moyen);
 	margin-top: var(--police-tres-grand);
-	margin-left: var(--espace-moyen);
 }
 
 /*annuler le margin top */

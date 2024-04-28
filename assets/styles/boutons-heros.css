@@ -3,42 +3,43 @@ et un div qui contient 1 div titre et 1 div boutons */
 .boutons-heros {
 	position: relative;
 	display: flex;
-	align-items: flex-start;
-	justify-content: center;
 	min-height: 85dvh;
 }
 
 /*le titre*/
 .boutons-heros h2 {
-	top: 0;
 	margin: var(--espace-tres-grand);
 	z-index: 2;
 	font-size: var(--police-grand);
-	text-align: center;
 }
 
 /*div qui contient le titre et un div avec des boutons*/
 .boutons-heros > div {
-	position: absolute;
+	position: relative;
+
 	display: flex;
-	width: 100%;
-	min-height: 100%;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	z-index: var(--z-1);
 }
 
 /*c'est le div qui contient les boutons*/
 .boutons {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 100%;
-	padding-bottom: 100px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: var(--espace-tres-grand);
 }
 
 /*les boutons*/
-.boutons .bouton {
-	margin: var(--espace-tres-grand);
+.boutons > .bouton {
+	margin-left: var(--espace-tres-grand);
+	max-width: initial;
+
+	transition-property: transform;
+	transition-duration: 200ms;
+}
+
+.boutons > .bouton:hover {
+	transform: translateX(var(--espace-tres-grand-neg));
 }

@@ -1,3 +1,8 @@
+.carte {
+	transition-property: background-color, box-shadow, transform;
+	transition-duration: 200ms, 200ms, 150ms;
+}
+
 .carte > * + * {
 	margin-top: var(--espace-petit);
 }
@@ -18,5 +23,10 @@
 }
 
 .carte:hover {
+	background-color: var(--nuance-fonce);
 	box-shadow: var(--ombre-forte);
+}
+
+.carte:active {
+	transform: translate(2px, 2px);
 }

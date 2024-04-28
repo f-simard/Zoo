@@ -1,19 +1,18 @@
 .bouton {
 	display: inline-block;
-	background-color: var(--gris-fonce);
-	color: var(--couleur-bouton);
 	padding: var(--espace-tres-petit);
 	border-radius: 10px;
 	text-decoration: none;
 	border: solid 1px transparent;
+	max-width: fit-content;
 
-	transition-property: transform;
-	transition-duration: 200ms;
+	transition-property: transform, background-color, box-shadow;
+	transition-duration: 150ms, 200ms, 200ms;
 }
 
 .bouton.gros {
 	padding: var(--espace-grand);
-	font-size: var(--police-petit);
+	font-size: var(--police-moyen-petit);
 }
 
 .bouton.tres-gros {
@@ -22,25 +21,24 @@
 }
 
 .bouton.grand-text {
-	max-width: 18ch;
 	padding: var(--espace-moyen);
 	font-size: var(--police-moyen-petit);
 	font-weight: 500;
 }
 
-.bouton.noir {
-	background-color: black;
-	color: white;
-}
-
 .bouton:active {
-	transform: translateX(4px);
-	transform: translateY(4px);
-}
-.bouton:hover {
-	background-color: var(--gris-moyen);
+	transform: translate(2px, 2px);
+	box-shadow: var(--ombre-fonce);
 }
 
-.bouton.noir:hover {
-	background-color: rgb(37, 37, 37);
+.bouton.fond-fonce:hover,
+.bouton.fond-fonce:focus {
+	background-color: var(--accent-fonce-opaque);
+	box-shadow: var(--ombre-pale);
 }
+
+/* .bouton.fond-fonce:focus {
+	background-color: var(--accent-fonce-opaque);
+	box-shadow: var(--ombre);
+	border: 1px solid var(--couleur-pale);
+} */
