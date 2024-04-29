@@ -1,10 +1,8 @@
 .entete-hero {
 	position: relative;
-	height: 80dvh;
 }
 /* text de l'entete en deux colones */
 .entete-hero > div {
-	max-height: inherit;
 	position: relative;
 	padding: calc(var(--espace-moyen));
 

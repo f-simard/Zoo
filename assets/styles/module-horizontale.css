@@ -27,6 +27,7 @@ si l'imgae va à droite ou à gauche */
 	align-items: flex-start;
 	gap: var(--espace-moyen);
 	padding: var(--espace-tres-grand);
+
 	flex-basis: 40%;
 }
 .module-horizontale p {
@@ -34,12 +35,23 @@ si l'imgae va à droite ou à gauche */
 }
 
 @media (max-width: 768px) {
+	.module-horizontale picture {
+		flex-basis: 0;
+		flex-grow: 6;
+	}
+	
+	.module-horizontale div {
+		flex-basis: 0;
+		flex-grow: 10;
+	}
 	.module-horizontale p {
 		font-size: var(--police-moyen);
 	}
 }
 
 @media (max-width: 540px) {
+
+
 	.module-horizontale p {
 		font-size: var(--police-petit-moyen);
 	}
