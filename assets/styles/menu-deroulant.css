@@ -33,6 +33,6 @@
 
 @media (max-width:540px){
 .menu-deroulant > ul {
-	align-self: center;
+	transform: translateX(-5ch);
 }
 }
