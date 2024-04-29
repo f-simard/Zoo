@@ -30,3 +30,9 @@
 
 	transform: translateY(-2rem);
 }
+
+@media (max-width:540px){
+.menu-deroulant > ul {
+	align-self: center;
+}
+}
