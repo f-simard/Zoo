@@ -1,10 +1,10 @@
 .entete-hero {
 	position: relative;
-	min-height: 70dvh;
+	height: 70dvh;
 }
-
 /* text de l'entete en deux colones */
 .entete-hero > div {
+	max-height: inherit;
 	position: relative;
 	padding: calc(var(--espace-moyen) + var(--espace-moyen));
 
@@ -14,22 +14,37 @@
 	align-items: first baseline;
 }
 
-/* premiere colone*/
 .entete-hero .zone-titre {
-	flex-basis: 50%;
+	flex-basis: 0;
+	flex-grow: 12;
+}
+
+.entete-hero .zone-info {
+	min-width: 30ch;
+	flex-basis: 0;
+	flex-grow: 10;
+}
+
+/* premiere colone*/
+
+.entete-hero .zone-titre {
 	white-space: nowrap;
+	text-align: end;
 }
 
 .entete-hero .zone-titre > * {
 	font-size: var(--police-tres-grand);
+	padding: var(--espace-tres-grand);
 }
 
 /* deuxieme colone*/
 .entete-hero .zone-info {
 	text-align: left;
 	white-space: wrap;
-	padding: var(--espace-tres-grand);
-	flex-basis: 50%;
+	max-width: inherit;
+
+	padding: var(--espace-grand);
+	background-color: var(--nuance-fonce-transparent);
 }
 
 .entete-hero .zone-info h1 {
@@ -40,4 +55,64 @@
 	font-size: var(--police-moyen);
 	margin-top: var(--espace-enorme);
 	margin-bottom: var(--espace-moyen);
+}
+
+@media (max-width: 1440px) {
+	.entete-hero .zone-titre h1 {
+		font-size: var(--police-tres-grand);
+	}
+
+	.entete-hero .zone-info p {
+		font-size: var(--police-moyen-grand);
+		margin-top: var(--espace-grand);
+		margin-bottom: var(--espace-moyen);
+	}
+}
+
+@media (max-width: 10254px) {
+	.entete-hero .zone-info h1 {
+		font-size: var(--police-grand);
+		margin-top: var(--espace-grand);
+		margin-bottom: var(--espace-moyen);
+	}
+
+	.entete-hero .zone-info p {
+		font-size: var(--police-moyen);
+		margin-top: var(--espace-grand);
+		margin-bottom: var(--espace-moyen);
+	}
+}
+
+@media (max-width: 768px) {
+	/* text de l'entete en deux colones */
+	.entete-hero > div {
+		flex-direction: column;
+		gap: var(--espace-grand);
+	}
+	.entete-hero .zone-info p {
+		font-size: var(--police-moyen);
+		margin-top: var(--espace-enorme);
+		margin-bottom: var(--espace-enorme);
+	}
+}
+
+@media (max-width: 540px) {
+	/* text de l'entete en deux colones */
+	.entete-hero > div {
+		align-items: center;
+	}
+
+	.entete-hero .zone-titre > * {
+		font-size: var(--police-grand);
+	}
+
+	.entete-hero .zone-info h1 {
+		font-size: var(--police-moyen-grand);
+	}
+
+	.entete-hero .zone-info p {
+		font-size: var(--police-petit-moyen);
+		margin-top: var(--espace-moyen);
+		margin-bottom: var(--espace-moyen);
+	}
 }

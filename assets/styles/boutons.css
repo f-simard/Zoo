@@ -13,6 +13,7 @@
 .bouton.gros {
 	padding: var(--espace-grand);
 	font-size: var(--police-moyen-petit);
+	text-wrap: wrap;
 }
 
 .bouton.tres-gros {
@@ -37,8 +38,8 @@
 	box-shadow: var(--ombre-pale);
 }
 
-/* .bouton.fond-fonce:focus {
-	background-color: var(--accent-fonce-opaque);
-	box-shadow: var(--ombre);
-	border: 1px solid var(--couleur-pale);
-} */
+.bouton.fond-accent-fonce:hover,
+.bouton.fond-accent-fonce:focus {
+	background-color: var(--nuan ce-fonce);
+	box-shadow: var(--ombre-pale);
+}

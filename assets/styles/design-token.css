@@ -36,7 +36,7 @@
 
 /*exceptions*/
 [data-textshadow="accent-fonce"] {
-	text-shadow: var(--accent-fonce-opaque) 2px 2px 20px;
+	text-shadow: var(--nuance-pale) 3px 3px 10px;
 }
 
 [data-textshadow="nuance-fonce"] {

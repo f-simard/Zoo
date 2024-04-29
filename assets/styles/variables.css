@@ -5,12 +5,6 @@
 	--z-2: 2;
 
 	/* couleurs */
-	--gris-pale: rgb(240, 240, 240);
-	--gris-moyen: rgb(200, 200, 200);
-	--gris-fonce: rgb(160, 160, 160);
-	--gris-tres-fonce: rgb(100, 100, 100);
-	--couleur-bouton: black;
-
 	--nuance-pale: rgb(252, 252, 252); /*presque blanc*/
 	--principal: rgb(58, 69, 28); /*dark green moss*/
 	--accent-fonce: rgb(109, 40, 28, 0.9); /*persian red*/
@@ -23,33 +17,12 @@
 		0.7
 	); /*eerie black transparent*/
 
-	/* espaces */
-	--espace-tres-petit: 5px;
-	--espace-petit: 10px;
-	--espace-moyen: 20px;
-	--espace-grand: 30px;
-	--espace-tres-grand: 50px;
-	--espace-tres-grand-neg: -50px;
-	--espace-enorme: 60px;
-
-	--gouttiere: var(--espace-tres-grand);
-
-	--colonne: 30ch;
+	--colonne: 25ch;
 
 	--margin-auto: auto;
 
 	/*tailles elements*/
 	--largeure-max: 1920px;
-
-	/* grandeurs de police */
-	--police-tres-petit: 15px;
-	--police-petit: 18px;
-	--police-moyen-petit: 24px;
-	--police-moyen: 30px;
-	--police-moyen-grand: 35px;
-	--police-grand: 40px;
-	--police-tres-grand: 70px;
-	--police-enorme: 100px;
 
 	/*famille de police*/
 	--serif-titre: "Playfair Display", Cambria, Georgia, serif;

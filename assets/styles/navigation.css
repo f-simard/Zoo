@@ -7,6 +7,13 @@
 	padding: var(--espace-petit);
 }
 
+@media (max-width: 768px) {
+	[id="navigation"] {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 [id="navigation"] li {
 	list-style-type: none;
 }

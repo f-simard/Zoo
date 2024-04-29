@@ -1,9 +1,22 @@
 /* .boutons-heros contient l'image,
 et un div qui contient 1 div titre et 1 div boutons */
 .boutons-heros {
-	position: relative;
-	display: flex;
 	min-height: 85dvh;
+
+	display: flex;
+	position: relative;
+}
+
+.boutons-heros > div {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: var(--gouttiere);
+
+	flex-basis: 75%;
+
+	padding: var(--espace-grand);
+	background-color: rgb(252, 252, 252, 0.5); /*presque blanc*/
+	border-radius: 15px;
 }
 
 /*le titre*/
@@ -15,18 +28,17 @@ et un div qui contient 1 div titre et 1 div boutons */
 
 /*div qui contient le titre et un div avec des boutons*/
 .boutons-heros > div {
-	position: relative;
-
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	justify-content: space-between;
 	z-index: var(--z-1);
 }
 
 /*c'est le div qui contient les boutons*/
 .boutons {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	gap: var(--espace-tres-grand);
 }
@@ -34,6 +46,8 @@ et un div qui contient 1 div titre et 1 div boutons */
 /*les boutons*/
 .boutons > .bouton {
 	margin-left: var(--espace-tres-grand);
+	margin-right: var(--espace-tres-grand);
+
 	max-width: initial;
 
 	transition-property: transform;

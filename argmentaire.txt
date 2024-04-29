@@ -4,10 +4,10 @@ Modification HTML:
 
 Modification CSS:
 - j'ai décidié de garder le CSS en faisant quelques modifications au niveau des classes pour rendre l'adaptation plus facile ou retirer des redondance. La base était facile à suivre. Tout refaire aurait pris du temps qui peut être investi dans d'autres tâches tel que l'adaptation.
+- Le defi a été pour les tailles de police et d'espacement car elles étaient mise en variable et en pixel. pour l'adaptation
 
 Effet:
 - j'ai changé l'effet de survol dans la navigation car il était difficile de faire une belle composition graphique qui respecte les contraintes d'accessibilité sans changé la palette au complet
-
 
 Modification Scenarisation:
 - augmentation de la taille du menu: la barre de menu est un peu disproportionnée par rapport au reste du site
@@ -15,26 +15,36 @@ Modification Scenarisation:
 - modification du ratio de taille des cartes car elles étaient trop grande en 1/1. Elles repoussaient le titre et l'élément d'apres au point ou la section ne rentrait quasiement pas dans une fenêtre
 - modification du module boutons-hero à cause de l'image sélectionnée afin d'apporter une balance entre les boutons et l'image mise de l'avant
 
-
 Modification adaptation:
 - restriction du la largeure du contenu car sinon les images deviennent très large et le texte tres éparpillé
-- modification de la taille des polices pour rem
+- deplacement des variables liées aux polices et espacement vers tupographie et composition respectivement avec des medias query.
+Cette solution a été implémenter par manque de temps. La solution la plus rapide était donc de réinitialiser les variables avec les valeurs voulu pour chaque media queries étant donné quel ces premières sont utilisées au travers du CSS pour définir les tailles.
+	source:
+	https://medium.com/@sikirus81/how-to-scale-fonts-responsively-with-css-for-different-screen-sizes-4107f233988b
+	https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 
-Images:
-- pexels
-- unsplashed
-- 
 
 Choix du langage graphique:
 
-COULEUR: 
-"analogous harmony" car elle évoque un sentiment et de calme selon https://zevendesign.com/color-harmony-hulk-wears-purple-pants/
+	COULEUR: 
+		j'ai extrait les couleurs principale dans une image refernce (carcajou) grace à colormind, et j'ai ensuite valider les contrastes avec Coolors. Le but était d'avoir des couleur que le public peut associer avec la faune et la flore du quebec.
 
 
-POLICE: inspiré par des exemples présentés sur "Font In Use" avec le tag "Zoo", "Wildlife", "famille", 
-	J'ai choisi une combinaison d'une police avec sérif pour les titres et éléments important et une police sans sérif pour la majorité du texte. Les polices sans serif sont généralement associé à la modernité. Étant donné que le public ciblent sont les familles avec des jeunes enfants, il est d'autant plus pertinent d'utiliser une police que les gens considèrent comme morderne pour la grande partie du texte. De plus, les polices sans seriff offrent une meilleure lisibilité pour des écrans avec de petite taille ou de résolution faible.
+	POLICE: inspiré par des exemples présentés sur "Font In Use" avec le tag "Zoo", "Wildlife", "famille", 
+		J'ai choisi une combinaison d'une police avec sérif pour les titres et éléments important et une police sans sérif pour la majorité du texte. Les polices sans serif sont généralement associé à la modernité. Étant donné que le public ciblent sont les familles avec des jeunes enfants, il est d'autant plus pertinent d'utiliser une police que les gens considèrent comme morderne pour la grande partie du texte. De plus, les polices sans seriff offrent une meilleure lisibilité pour des écrans avec de petite taille ou de résolution faible.
+
+TO-DO:
+par manque de temps, les elements suivants n'ont pas été complété
+	- revision des nom des variables, modules et classes afin de facilier la recherche d'information
+	- "refactor" l'utilisation de la taille de police. Il est plut[ot difficile en ce moment de retrouver la source d'une taille de police, selon mon.
+	- "refactor" l'adaptation de facon generale car plusieurs solutions présentées sont en ce moment des "quick-fix" afin de ne pas soumettre un site brisé.
 
 sources:
 https://www.adobe.com/ca/creativecloud/design/discover/serif-vs-sans-serif.html#:~:text=%E2%80%9CIf%20you're%20building%20an,small%20or%20have%20lower%20resolutions.
 https://fontsinuse.com/search?terms=wildlife&page=1
 https://www.aza.org/partnerships-visitor-demographics
+Coolors
+ColorMind
+TypeScale
+Pexels
+Unsplashed

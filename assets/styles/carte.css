@@ -17,12 +17,13 @@
 }
 
 .carte h3 {
-	padding: var(--espace-tres-grand);
+	padding: var(--espace-grand);
 	text-align: center;
 	font-size: var(--police-moyen-petit);
 }
 
-.carte:hover {
+.carte:hover,
+.carte:focus {
 	background-color: var(--nuance-fonce);
 	box-shadow: var(--ombre-forte);
 }

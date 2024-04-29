@@ -7,8 +7,7 @@
 }
 .module-evenement > div {
 	padding: var(--espace-tres-grand);
-	min-width: 45ch;
-	max-width: 80ch;
+	min-width: 25ch;
 
 	flex-basis: 0;
 	flex-grow: 1;
@@ -19,7 +18,7 @@
 }
 
 .module-evenement h2 {
-	font-size: var(--police-enorme);
+	font-size: var(--police-tres-grand);
 }
 
 .module-evenement h3 {

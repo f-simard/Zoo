@@ -10,15 +10,14 @@ si l'imgae va à droite ou à gauche */
 	display: flex;
 	flex-direction: row-reverse;
 }
-
-.module-horizontale picture {
-	flex-basis: 60%;
-}
-
 .module-horizontale img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.module-horizontale picture {
+	flex-basis: 60%;
 }
 
 .module-horizontale div {
@@ -30,13 +29,18 @@ si l'imgae va à droite ou à gauche */
 	padding: var(--espace-tres-grand);
 	flex-basis: 40%;
 }
-
 .module-horizontale p {
-	font-size: var(--police-moyen-grand);
+	font-size: var(--police-moyen);
 }
 
-/* ajouter la marge à tout les cartes sauf la dernière--semblable au hiboux lobotimisé */
+@media (max-width: 768px) {
+	.module-horizontale p {
+		font-size: var(--police-moyen);
+	}
+}
 
-/*.module-horizontale + .module-horizontale {
-	margin-top: var(--gouttiere);
-}*/
+@media (max-width: 540px) {
+	.module-horizontale p {
+		font-size: var(--police-petit-moyen);
+	}
+}

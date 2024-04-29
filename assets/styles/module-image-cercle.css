@@ -19,6 +19,13 @@
 	flex-grow: 3;
 }
 
+/*l'image est retiré lorsque l'écran est trop étroit*/
+@media (max-width: 768px) {
+	.module-image-cercle picture {
+		display: none;
+	}
+}
+
 /* l'image a presentement une taille fixe
 ceci assure aucune déformation du cercle */
 .module-image-cercle picture {
