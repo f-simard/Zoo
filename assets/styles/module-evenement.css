@@ -1,49 +1,49 @@
 .module-evenement {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-end;
-	gap: var(--espace-moyen);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: var(--espace-moyen);
 }
 .module-evenement > div {
-	padding: var(--espace-tres-grand);
-	min-width: 25ch;
+    padding: var(--espace-tres-grand);
+    min-width: 25ch;
 
-	flex-basis: 0;
-	flex-grow: 1;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .module-evenement > div > * + * {
-	margin-top: var(--espace-moyen);
+    margin-top: var(--espace-moyen);
 }
 
 .module-evenement h2 {
-	font-size: var(--police-tres-grand);
+    font-size: var(--police-tres-grand);
 }
 
 .module-evenement h3 {
-	font-size: var(--police-tres-grand);
+    font-size: var(--police-tres-grand);
 }
 
 .module-evenement * + h4 {
-	font-size: var(--police-grand);
-	margin-top: var(--espace-tres-grand);
+    font-size: var(--police-grand);
+    margin-top: var(--espace-tres-grand);
 }
 
 .module-evenement * + h5 {
-	margin-top: var(--espace-grand);
+    margin-top: var(--espace-grand);
 }
 
 .module-evenement .bouton {
-	margin-top: var(--espace-enorme);
+    margin-top: var(--espace-enorme);
 }
 
 /*source: https://codepen.io/Amine_Es/pen/WNNRVyb */
 .module-evenement li {
-	list-style: none;
+    list-style: none;
 }
 
 .module-evenement li::before {
-	content: "\2014";
-	padding: 2px;
+    content: "\2014";
+    padding: 2px;
 }

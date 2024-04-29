@@ -1,45 +1,45 @@
 .bouton {
-	display: inline-block;
-	padding: var(--espace-tres-petit);
-	border-radius: 10px;
-	text-decoration: none;
-	border: solid 1px transparent;
-	max-width: fit-content;
+    display: inline-block;
+    padding: var(--espace-tres-petit);
+    border-radius: 10px;
+    text-decoration: none;
+    border: solid 1px transparent;
+    max-width: fit-content;
 
-	transition-property: transform, background-color, box-shadow;
-	transition-duration: 150ms, 200ms, 200ms;
+    transition-property: transform, background-color, box-shadow;
+    transition-duration: 150ms, 200ms, 200ms;
 }
 
 .bouton.gros {
-	padding: var(--espace-grand);
-	font-size: var(--police-moyen-petit);
-	text-wrap: wrap;
+    padding: var(--espace-grand);
+    font-size: var(--police-moyen-petit);
+    white-space: wrap;
 }
 
 .bouton.tres-gros {
-	padding: var(--espace-grand);
-	font-size: var(--police-moyen);
+    padding: var(--espace-grand);
+    font-size: var(--police-moyen);
 }
 
 .bouton.grand-text {
-	padding: var(--espace-moyen);
-	font-size: var(--police-moyen-petit);
-	font-weight: 500;
+    padding: var(--espace-moyen);
+    font-size: var(--police-moyen-petit);
+    font-weight: 500;
 }
 
 .bouton:active {
-	transform: translate(2px, 2px);
-	box-shadow: var(--ombre-fonce);
+    transform: translate(2px, 2px);
+    box-shadow: var(--ombre-fonce);
 }
 
 .bouton.fond-fonce:hover,
 .bouton.fond-fonce:focus {
-	background-color: var(--accent-fonce-opaque);
-	box-shadow: var(--ombre-pale);
+    background-color: var(--accent-fonce-opaque);
+    box-shadow: var(--ombre-pale);
 }
 
 .bouton.fond-accent-fonce:hover,
 .bouton.fond-accent-fonce:focus {
-	background-color: var(--nuance-fonce);
-	box-shadow: var(--ombre-pale);
+    background-color: var(--nuance-fonce);
+    box-shadow: var(--ombre-pale);
 }

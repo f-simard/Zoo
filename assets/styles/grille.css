@@ -1,15 +1,13 @@
 /* grille de présentation auto-adaptative */
 .grille {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(var(--colonne), 1fr));
-	gap: var(--gouttiere);
-	margin-left: var(--espace-tres-grand);
-	margin-right: var(--espace-tres-grand);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--colonne), 1fr));
+    gap: var(--gouttiere);
+    margin-left: var(--espace-tres-grand);
+    margin-right: var(--espace-tres-grand);
 }
 
 /* variantes de grille */
 .grille.petite {
-	--colonne: 10ch;
+    --colonne: 10ch;
 }
-
-

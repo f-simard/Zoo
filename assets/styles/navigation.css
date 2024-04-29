@@ -1,40 +1,99 @@
 [id="navigation"] {
-	display: flex;
-	align-items: center;
-	gap: var(--espace-grand);
+    display: flex;
+    align-items: center;
+    gap: var(--espace-grand);
 
-	z-index: 1;
-	padding: var(--espace-petit);
+    z-index: 1;
+    padding: var(--espace-petit);
+}
+
+@media (min-width: 768px) {
+    /*retirer check box*/
+    [id="bouton-nav"] {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
-	[id="navigation"] {
-		display: flex;
-		flex-direction: column;
-	}
+    nav {
+        height: calc(var(--espace-enorme) + 64px);
+    }
+
+    [id="navigation"] {
+        display: flex;
+        flex-direction: column;
+
+        /*assurer que ca soit par dessus tout*/
+        position: fixed;
+        z-index: 1;
+
+        /*position tout l'écran + barre de défilemen au besoin*/
+        inset: 0;
+        /*equivalent de 
+		top:0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		*/
+        overflow: auto;
+
+        /*apparition avec opacité*/
+        transition-property: opacity;
+        transition-duration: 200ms;
+    }
+
+    /*placer le check box + changer apparence*/
+    [id="bouton-nav"] {
+        position: relative;
+        z-index: 2;
+
+        top: var(--espace-enorme);
+        left: var(--espace-tres-grand);
+        appearance: none;
+
+        /*pointer sur bouton nav*/
+        cursor: pointer;
+    }
+
+    [id="bouton-nav"]:not(:checked) + [id="navigation"] {
+        opacity: 0;
+        pointer-events: none;
+    } /*utilisation pseudo element => ajouter du contenu qui n'existe pas dans le html*/
+    /* ::after -- pseudo contenu, ajoute a la fin du check box */
+    [id="bouton-nav"]::after {
+        content: "Menu ☰";
+        font-size: var(--police-moyen);
+    }
+
+    [id="bouton-nav"]:checked::after {
+        content: "Fermer ☰";
+        font-size: var(--police-moyen);
+    }
+
+    /* si etat du check box est coché, affiche nav, sinon affiche pas*/
 }
 
 [id="navigation"] li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 [id="navigation"] a {
-	display: block;
-	padding: var(--espace-petit);
-	font-size: var(--police-moyen-petit);
+    display: block;
+    padding: var(--espace-petit);
+    font-size: var(--police-moyen-petit);
 
-	border-bottom: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 
-	transition-property: border-bottom;
-	transition-duration: 200ms;
+    transition-property: border-bottom;
+    transition-duration: 200ms;
 }
 
 [id="navigation"] a:hover {
-	border-bottom: 2px solid var(--nuance-pale);
+    border-bottom: 2px solid var(--nuance-pale);
 }
 
 [id="navigation"] .logo {
-	height: 64px;
-	width: 64px;
-	aspect-ratio: 1 / 1;
+    height: 64px;
+    width: 64px;
+    aspect-ratio: 1 / 1;
 }

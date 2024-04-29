@@ -1,5 +1,5 @@
 .verticale {
-	border-left: white 1px solid;
-	border-image: var(--ligne-style-blanc);
-	padding-left: var(--espace-tres-grand);
+    border-left: white 1px solid;
+    border-image: var(--ligne-style-blanc);
+    padding-left: var(--espace-tres-grand);
 }

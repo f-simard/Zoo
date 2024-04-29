@@ -2,57 +2,55 @@
 si l'imgae va à droite ou à gauche */
 
 .module-horizontale[data-position="droite"] {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .module-horizontale[data-position="gauche"] {
-	display: flex;
-	flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .module-horizontale img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .module-horizontale picture {
-	flex-basis: 60%;
+    flex-basis: 60%;
 }
 
 .module-horizontale div {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	gap: var(--espace-moyen);
-	padding: var(--espace-tres-grand);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--espace-moyen);
+    padding: var(--espace-tres-grand);
 
-	flex-basis: 40%;
+    flex-basis: 40%;
 }
 .module-horizontale p {
-	font-size: var(--police-moyen);
+    font-size: var(--police-moyen);
 }
 
 @media (max-width: 768px) {
-	.module-horizontale picture {
-		flex-basis: 0;
-		flex-grow: 6;
-	}
-	
-	.module-horizontale div {
-		flex-basis: 0;
-		flex-grow: 10;
-	}
-	.module-horizontale p {
-		font-size: var(--police-moyen);
-	}
+    .module-horizontale picture {
+        flex-basis: 0;
+        flex-grow: 6;
+    }
+
+    .module-horizontale div {
+        flex-basis: 0;
+        flex-grow: 10;
+    }
+    .module-horizontale p {
+        font-size: var(--police-moyen);
+    }
 }
 
 @media (max-width: 540px) {
-
-
-	.module-horizontale p {
-		font-size: var(--police-petit-moyen);
-	}
+    .module-horizontale p {
+        font-size: var(--police-petit-moyen);
+    }
 }

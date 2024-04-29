@@ -1,40 +1,40 @@
 .couleur-pale {
-	color: var(--nuance-pale);
+    color: var(--nuance-pale);
 }
 
 .couleur-principal {
-	color: var(--principal);
+    color: var(--principal);
 }
 
 .couleur-accent-fonce {
-	color: var(--accent-fonce-opaque);
+    color: var(--accent-fonce-opaque);
 }
 
 .couleur-fonce {
-	color: var(--nuance-fonce);
+    color: var(--nuance-fonce);
 }
 
 .fond-pale {
-	background-color: var(--nuance-pale);
+    background-color: var(--nuance-pale);
 }
 
 .fond-principal {
-	background-color: var(--principal);
+    background-color: var(--principal);
 }
 
 .fond-accent-fonce {
-	background-color: var(--accent-fonce);
+    background-color: var(--accent-fonce);
 }
 
 .fond-fonce {
-	background-color: var(--nuance-fonce);
+    background-color: var(--nuance-fonce);
 }
 
 .fond-fonce-transparent {
-	background-color: var(--nuance-fonce-transparent);
+    background-color: var(--nuance-fonce-transparent);
 }
 
 /*exceptions*/
 [data-textshadow="accent-fonce"] {
-	text-shadow: var(--nuance-pale) 3px 3px 10px;
+    text-shadow: var(--nuance-pale) 3px 3px 10px;
 }

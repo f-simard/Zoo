@@ -1,49 +1,49 @@
 :root {
-	/* z-indexes */
-	--z-menu: 3;
-	--z-1: 1;
-	--z-2: 2;
+    /* z-indexes */
+    --z-menu: 3;
+    --z-1: 1;
+    --z-2: 2;
 
-	/* couleurs */
-	--nuance-pale: rgb(252, 252, 252); /*presque blanc*/
-	--principal: rgb(58, 69, 28); /*dark green moss*/
-	--accent-fonce: rgb(109, 40, 28, 0.9); /*persian red*/
-	--accent-fonce-opaque: rgb(109, 40, 28); /*persian red*/
-	--nuance-fonce: rgb(28, 35, 31); /*eerie black*/
-	--nuance-fonce-transparent: rgb(
-		28,
-		35,
-		31,
-		0.7
-	); /*eerie black transparent*/
+    /* couleurs */
+    --nuance-pale: rgb(252, 252, 252); /*presque blanc*/
+    --principal: rgb(58, 69, 28); /*dark green moss*/
+    --accent-fonce: rgb(109, 40, 28, 0.9); /*persian red*/
+    --accent-fonce-opaque: rgb(109, 40, 28); /*persian red*/
+    --nuance-fonce: rgb(28, 35, 31); /*eerie black*/
+    --nuance-fonce-transparent: rgb(
+        28,
+        35,
+        31,
+        0.7
+    ); /*eerie black transparent*/
 
-	--colonne: 25ch;
+    --colonne: 25ch;
 
-	--margin-auto: auto;
+    --margin-auto: auto;
 
-	/*tailles elements*/
-	--largeure-max: 1920px;
+    /*tailles elements*/
+    --largeure-max: 1920px;
 
-	/*famille de police*/
-	--serif-titre: "Playfair Display", Cambria, Georgia, serif;
-	--serif-soustitre: "Merriweather", Cambria, Georgia, serif;
-	--sans-serif: "Overpass", "Helvetica Neue", Helvetica, Arial, Verdana,
-		sans-serif;
+    /*famille de police*/
+    --serif-titre: "Playfair Display", Cambria, Georgia, serif;
+    --serif-soustitre: "Merriweather", Cambria, Georgia, serif;
+    --sans-serif: "Overpass", "Helvetica Neue", Helvetica, Arial, Verdana,
+        sans-serif;
 
-	/* effets visuels */
-	--ligne-style-noir: linear-gradient(rgb(0, 0, 0, 0), black, rgb(0, 0, 0, 0))
-		1;
-	--ligne-style-blanc: linear-gradient(
-			var(--nuance-fonce),
-			var(--nuance-pale),
-			var(--nuance-fonce)
-		)
-		1;
+    /* effets visuels */
+    --ligne-style-noir: linear-gradient(rgb(0, 0, 0, 0), black, rgb(0, 0, 0, 0))
+        1;
+    --ligne-style-blanc: linear-gradient(
+            var(--nuance-fonce),
+            var(--nuance-pale),
+            var(--nuance-fonce)
+        )
+        1;
 
-	/*https://getcssscan.com/css-box-shadow-examples*/
-	--ombre: rgba(0, 0, 0, 0.12) px 3px 6px, rgba(0, 0, 0, 0.24) 0px 3px 26x;
-	--ombre-pale: rgba(252, 252, 252) 1px 3px 10px,
-		rgba(252, 252, 252) 1px 3px 26x;
-	--ombre-forte: var(--nuance-fonce) 0px 10px 20px,
-		rgba(0, 0, 0, 0.23) 0px 10px 20px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    --ombre: rgba(0, 0, 0, 0.12) px 3px 6px, rgba(0, 0, 0, 0.24) 0px 3px 26x;
+    --ombre-pale: rgba(252, 252, 252) 1px 3px 10px,
+        rgba(252, 252, 252) 1px 3px 26x;
+    --ombre-forte: var(--nuance-fonce) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 10px 20px;
 }

@@ -1,65 +1,65 @@
 /* .boutons-heros contient l'image,
 et un div qui contient 1 div titre et 1 div boutons */
 .boutons-heros {
-	min-height: 85dvh;
+    min-height: 85dvh;
 
-	display: flex;
-	position: relative;
+    display: flex;
+    position: relative;
 }
 
 .boutons-heros > div {
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: var(--gouttiere);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: var(--gouttiere);
 
-	flex-basis: 75%;
+    flex-basis: 75%;
 
-	padding: var(--espace-grand);
-	background-color: rgb(252, 252, 252, 0.5); /*presque blanc*/
-	border-radius: 15px;
+    padding: var(--espace-grand);
+    background-color: rgb(252, 252, 252, 0.5); /*presque blanc*/
+    border-radius: 15px;
 }
 
 /*le titre*/
 .boutons-heros h2 {
-	margin: var(--espace-tres-grand);
-	z-index: 2;
-	font-size: var(--police-grand);
+    margin: var(--espace-tres-grand);
+    z-index: 2;
+    font-size: var(--police-grand);
 }
 
 /*div qui contient le titre et un div avec des boutons*/
 .boutons-heros > div {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	z-index: var(--z-1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: var(--z-1);
 }
 
 /*c'est le div qui contient les boutons*/
 .boutons {
-	display: flex;
-	flex-direction: row;
-	gap: var(--espace-tres-grand);
+    display: flex;
+    flex-direction: row;
+    gap: var(--espace-tres-grand);
 }
 
 /*les boutons*/
 .boutons > .bouton {
-	margin-left: var(--espace-grand);
-	margin-right: var(--espace-grand);
+    margin-left: var(--espace-grand);
+    margin-right: var(--espace-grand);
 
-	transition-property: transform;
-	transition-duration: 200ms;
+    transition-property: transform;
+    transition-duration: 200ms;
 }
 
 @media (max-width: 1440px) {
-	.boutons {
-		flex-wrap: wrap;
-	}
+    .boutons {
+        flex-wrap: wrap;
+    }
 
-	.boutons > .bouton {
-		max-width: initial;
-	}
+    .boutons > .bouton {
+        max-width: initial;
+    }
 }
 .boutons > .bouton:hover {
-	transform: translateX(var(--espace-tres-grand-neg));
+    transform: translateX(var(--espace-tres-grand-neg));
 }

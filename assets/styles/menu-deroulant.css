@@ -1,38 +1,38 @@
 .menu-deroulant {
-	position: relative;
+    position: relative;
 }
 
 /*la couleur du lien en haut 
     lorqu'on hover sur le sous-menu*/
 .menu-deroulant:hover {
-	border-bottom: 2px solid var(--couleur-pale);
+    border-bottom: 2px solid var(--couleur-pale);
 }
 
 .menu-deroulant > ul {
-	position: absolute;
-	top: 100%;
-	width: max-content;
-	max-width: 32ch;
-	z-index: var(--z-menu);
+    position: absolute;
+    top: 100%;
+    width: max-content;
+    max-width: 32ch;
+    z-index: var(--z-menu);
 
-	padding: var(--espace-moyen);
-	transition-property: opacity, transform;
-	transition-duration: 200ms;
+    padding: var(--espace-moyen);
+    transition-property: opacity, transform;
+    transition-duration: 200ms;
 }
 
 .menu-deroulant > ul > * {
-	max-width: fit-content;
+    max-width: fit-content;
 }
 
 .menu-deroulant:not(:hover) > ul {
-	pointer-events: none;
-	opacity: 0;
+    pointer-events: none;
+    opacity: 0;
 
-	transform: translateY(-2rem);
+    transform: translateY(-2rem);
 }
 
-@media (max-width:540px){
-.menu-deroulant > ul {
-	transform: translateX(-5ch);
-}
+@media (max-width: 540px) {
+    .menu-deroulant > ul {
+        transform: translateX(-5ch);
+    }
 }

@@ -1,93 +1,93 @@
 footer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 
-	padding-top: var(--espace-grand);
-	padding-bottom: var(--espace-grand);
+    padding-top: var(--espace-grand);
+    padding-bottom: var(--espace-grand);
 }
 
 footer .menu-footer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 footer div.verticale {
-	min-width: 25ch;
+    min-width: 25ch;
 }
 
 @media (max-width: 1024px) {
-	footer {
-		flex-direction: column;
-		gap: var(--espace-moyen);
+    footer {
+        flex-direction: column;
+        gap: var(--espace-moyen);
 
-		align-items: stretch;
-	}
+        align-items: stretch;
+    }
 
-	footer .menu-footer {
-		gap: var(--espace-moyen);
-	}
+    footer .menu-footer {
+        gap: var(--espace-moyen);
+    }
 }
 
 @media (max-width: 768px) {
-	footer .menu-footer {
-		gap: var(--espace-grand);
-	}
+    footer .menu-footer {
+        gap: var(--espace-grand);
+    }
 }
 
 /* les colonnes de liens */
 footer div {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 /* la premiere colone de liens */
 footer > div:first-child {
-	margin-left: var(--espace-moyen);
+    margin-left: var(--espace-moyen);
 }
 
 footer a {
-	margin-top: vaR(--espace-petit);
-	padding: var(--espace-petit);
+    margin-top: vaR(--espace-petit);
+    padding: var(--espace-petit);
 
-	max-width: fit-content;
-	border-bottom: 2px solid transparent;
+    max-width: fit-content;
+    border-bottom: 2px solid transparent;
 
-	transition-property: border-bottom;
-	transition-duration: 200ms;
+    transition-property: border-bottom;
+    transition-duration: 200ms;
 }
 
 /* les "titres" pour chaque section */
 footer a:first-child {
-	font-size: calc(var(--police-petit) + 4px);
+    font-size: calc(var(--police-petit) + 4px);
 }
 
 footer a:not(:first-child) {
-	margin-left: var(--espace-moyen);
+    margin-left: var(--espace-moyen);
 }
 
 footer a:hover {
-	border-bottom: 2px solid var(--nuance-pale);
+    border-bottom: 2px solid var(--nuance-pale);
 }
 
 /*contact area*/
 footer > div > div {
-	margin-left: var(--espace-moyen);
-	margin-top: auto;
-	margin-bottom: var(--espace-moyen);
+    margin-left: var(--espace-moyen);
+    margin-top: auto;
+    margin-bottom: var(--espace-moyen);
 }
 
 /*contact*/
 footer p {
-	font-size: var(--police-tres-petit);
-	font-weight: 200;
+    font-size: var(--police-tres-petit);
+    font-weight: 200;
 }
 
 /*contactez-nous*/
 footer h1 {
-	margin-bottom: var(--espace-petit);
-	font-weight: 200;
-	font-size: var(--police-moyen);
+    margin-bottom: var(--espace-petit);
+    font-weight: 200;
+    font-size: var(--police-moyen);
 }

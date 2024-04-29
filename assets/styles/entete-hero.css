@@ -1,66 +1,66 @@
 .entete-hero {
-	position: relative;
+    position: relative;
 }
 /* text de l'entete en deux colones */
 .entete-hero > div {
-	position: relative;
-	padding: calc(var(--espace-moyen));
+    position: relative;
+    padding: calc(var(--espace-moyen));
 
-	display: flex;
-	gap: var(--espace-moyen);
-	flex-direction: row;
-	align-items: first baseline;
+    display: flex;
+    gap: var(--espace-moyen);
+    flex-direction: row;
+    align-items: first baseline;
 }
 
 .entete-hero .zone-titre {
-	display: block;
-	flex-basis: 0;
-	flex-grow: 12;
+    display: block;
+    flex-basis: 0;
+    flex-grow: 12;
 }
 
 .entete-hero .zone-info {
-	flex-basis: 0;
-	flex-grow: 10;
+    flex-basis: 0;
+    flex-grow: 10;
 }
 
 /* premiere colone*/
 
 .entete-hero .zone-titre {
-	white-space: pre-rep;
-	text-align: end;
+    white-space: pre-rep;
+    text-align: end;
 }
 
 .entete-hero .zone-titre > * {
-	font-size: var(--police-tres-grand);
-	padding: var(--espace-moyen);
+    font-size: var(--police-tres-grand);
+    padding: var(--espace-moyen);
 }
 
 /* deuxieme colone*/
 .entete-hero .zone-info {
-	text-align: left;
-	white-space: wrap;
-	max-width: inherit;
+    text-align: left;
+    white-space: wrap;
+    max-width: inherit;
 
-	padding: var(--espace-grand);
-	background-color: var(--nuance-fonce-transparent);
+    padding: var(--espace-grand);
+    background-color: var(--nuance-fonce-transparent);
 }
 
 .entete-hero .zone-info h2 {
-	font-size: var(--police-grand);
+    font-size: var(--police-grand);
 }
 
 .entete-hero .zone-info p {
-	font-size: var(--police-moyen);
-	margin-top: var(--espace-enorme);
-	margin-bottom: var(--espace-grand);
+    font-size: var(--police-moyen);
+    margin-top: var(--espace-enorme);
+    margin-bottom: var(--espace-grand);
 }
 
 @media (max-width: 768px) {
-	.entete-hero > div {
-		flex-direction: column;
-	}
+    .entete-hero > div {
+        flex-direction: column;
+    }
 
-	.entete-hero .zone-titre {
-		text-align: initial;
-	}
+    .entete-hero .zone-titre {
+        text-align: initial;
+    }
 }
