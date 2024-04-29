@@ -38,7 +38,3 @@
 [data-textshadow="accent-fonce"] {
 	text-shadow: var(--nuance-pale) 3px 3px 10px;
 }
-
-[data-textshadow="nuance-fonce"] {
-	text-shadow: 2px 2px 6px var(--nuance-fonce);
-}

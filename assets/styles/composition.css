@@ -46,6 +46,11 @@ body {
 	margin-right: var(--margin-auto);
 }
 
+body > main {
+	margin-left: var(--espace-tres-petit);
+	margin-right: var(--espace-tres-petit);
+}
+
 body > * + * {
 	margin-top: var(--gouttiere);
 }

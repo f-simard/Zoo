@@ -1,12 +1,13 @@
 .entete-hero {
 	position: relative;
-	height: 70dvh;
+	overflow: hidden;
+	height: 80dvh;
 }
 /* text de l'entete en deux colones */
 .entete-hero > div {
 	max-height: inherit;
 	position: relative;
-	padding: calc(var(--espace-moyen) + var(--espace-moyen));
+	padding: calc(var(--espace-moyen));
 
 	display: flex;
 	gap: var(--espace-moyen);
@@ -15,6 +16,7 @@
 }
 
 .entete-hero .zone-titre {
+	display: block;
 	flex-basis: 0;
 	flex-grow: 12;
 }
@@ -28,13 +30,13 @@
 /* premiere colone*/
 
 .entete-hero .zone-titre {
-	white-space: nowrap;
+	white-space: pre-rep;
 	text-align: end;
 }
 
 .entete-hero .zone-titre > * {
 	font-size: var(--police-tres-grand);
-	padding: var(--espace-tres-grand);
+	padding: var(--espace-moyen);
 }
 
 /* deuxieme colone*/
@@ -54,65 +56,15 @@
 .entete-hero .zone-info p {
 	font-size: var(--police-moyen);
 	margin-top: var(--espace-enorme);
-	margin-bottom: var(--espace-moyen);
-}
-
-@media (max-width: 1440px) {
-	.entete-hero .zone-titre h1 {
-		font-size: var(--police-tres-grand);
-	}
-
-	.entete-hero .zone-info p {
-		font-size: var(--police-moyen-grand);
-		margin-top: var(--espace-grand);
-		margin-bottom: var(--espace-moyen);
-	}
-}
-
-@media (max-width: 10254px) {
-	.entete-hero .zone-info h1 {
-		font-size: var(--police-grand);
-		margin-top: var(--espace-grand);
-		margin-bottom: var(--espace-moyen);
-	}
-
-	.entete-hero .zone-info p {
-		font-size: var(--police-moyen);
-		margin-top: var(--espace-grand);
-		margin-bottom: var(--espace-moyen);
-	}
+	margin-bottom: var(--espace-grand);
 }
 
 @media (max-width: 768px) {
-	/* text de l'entete en deux colones */
 	.entete-hero > div {
 		flex-direction: column;
-		gap: var(--espace-grand);
-	}
-	.entete-hero .zone-info p {
-		font-size: var(--police-moyen);
-		margin-top: var(--espace-enorme);
-		margin-bottom: var(--espace-enorme);
-	}
-}
-
-@media (max-width: 540px) {
-	/* text de l'entete en deux colones */
-	.entete-hero > div {
-		align-items: center;
 	}
 
-	.entete-hero .zone-titre > * {
-		font-size: var(--police-grand);
-	}
-
-	.entete-hero .zone-info h1 {
-		font-size: var(--police-moyen-grand);
-	}
-
-	.entete-hero .zone-info p {
-		font-size: var(--police-petit-moyen);
-		margin-top: var(--espace-moyen);
-		margin-bottom: var(--espace-moyen);
+	.entete-hero .zone-titre {
+		text-align: initial;
 	}
 }

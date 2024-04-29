@@ -39,21 +39,27 @@ et un div qui contient 1 div titre et 1 div boutons */
 .boutons {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	gap: var(--espace-tres-grand);
 }
 
 /*les boutons*/
 .boutons > .bouton {
-	margin-left: var(--espace-tres-grand);
-	margin-right: var(--espace-tres-grand);
-
-	max-width: initial;
+	margin-left: var(--espace-grand);
+	margin-right: var(--espace-grand);
 
 	transition-property: transform;
 	transition-duration: 200ms;
 }
 
+@media (max-width: 1440px) {
+	.boutons {
+		flex-wrap: wrap;
+	}
+
+	.boutons > .bouton {
+		max-width: initial;
+	}
+}
 .boutons > .bouton:hover {
 	transform: translateX(var(--espace-tres-grand-neg));
 }

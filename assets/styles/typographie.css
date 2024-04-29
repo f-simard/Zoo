@@ -38,17 +38,17 @@ body {
 	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
 	body {
 		/* grandeurs de police */
 		--police-tres-petit: 14px;
 		--police-petit: 16px;
 		--police-moyen-petit: 18px;
 		--police-moyen: 20px;
-		--police-moyen-grand: 28px;
-		--police-grand: 36px;
+		--police-moyen-grand: 24px;
+		--police-grand: 32px;
 		--police-tres-grand: 42px;
-		--police-enorme: 100px;
+		--police-enorme: 180px;
 	}
 }
 
