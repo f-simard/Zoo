@@ -36,7 +36,7 @@ Choix du langage graphique:
 TO-DO:
 par manque de temps, les elements suivants n'ont pas été complété
 	- revision des nom des variables, modules et classes afin de facilier la recherche d'information
-	- "refactor" l'utilisation de la taille de police. Il est plut[ot difficile en ce moment de retrouver la source d'une taille de police, selon mon.
+	- "refactor" l'utilisation de la taille de police. Il est plutot difficile en ce moment de retrouver la source d'une taille de police, selon mon.
 	- "refactor" l'adaptation de facon generale car plusieurs solutions présentées sont en ce moment des "quick-fix" afin de ne pas soumettre un site brisé.
 
 sources:

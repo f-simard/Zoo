@@ -40,6 +40,6 @@
 
 .bouton.fond-accent-fonce:hover,
 .bouton.fond-accent-fonce:focus {
-	background-color: var(--nuan ce-fonce);
+	background-color: var(--nuance-fonce);
 	box-shadow: var(--ombre-pale);
 }

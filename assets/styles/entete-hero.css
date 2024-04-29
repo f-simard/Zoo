@@ -1,6 +1,5 @@
 .entete-hero {
 	position: relative;
-	overflow: hidden;
 	height: 80dvh;
 }
 /* text de l'entete en deux colones */
@@ -22,7 +21,6 @@
 }
 
 .entete-hero .zone-info {
-	min-width: 30ch;
 	flex-basis: 0;
 	flex-grow: 10;
 }
@@ -49,7 +47,7 @@
 	background-color: var(--nuance-fonce-transparent);
 }
 
-.entete-hero .zone-info h1 {
+.entete-hero .zone-info h2 {
 	font-size: var(--police-grand);
 }
 
