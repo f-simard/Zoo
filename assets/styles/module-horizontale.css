@@ -1,6 +1,9 @@
+.module-horizontale {
+    max-height: 400px;
+}
+
 /*ce module se fit sur le champ data-position afin de déterminer
 si l'imgae va à droite ou à gauche */
-
 .module-horizontale[data-position="droite"] {
     display: flex;
     flex-direction: row;
